@@ -10,5 +10,6 @@ export default defineConfig({
     // strictPort: true,  // 如果端口被占用，是否退出而不是嘗試下一個可用端口
   },
   base: '/yima-pdfword/',  // GitHub Pages 基礎路徑（倉庫名稱）
+                           // 如果使用 Netlify，請改為 base: '/'
 })
 
